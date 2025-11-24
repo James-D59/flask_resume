@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<br/>
+<center>
+	<h1>Hello {{ f_name }}!!</h1>
+<br/>
+{{ f_pizza }}
+<br/>
+<ul>
+{% for topping in f_pizza %}
+
+	<li>{{ topping }}</li>
+
+{% endfor %}
+</ul>
+
+</center>
+
+<br/><br/>
+<!-- This is a comment is how to do a link in HTML --<a href="/about">About Me</a>-->
+
+
+
+{% endblock%}
