@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route('/')
 
 def index():
-	first_name = 'James'
-	favorite_pizza = ['Pepperoni', 'Cheese', 'Sausage', 'Meat Lovers']
-	return render_template('index.html', f_name = first_name, f_pizza = favorite_pizza)
+	#first_name = 'James'
+	#favorite_pizza = ['Pepperoni', 'Cheese', 'Sausage', 'Meat Lovers']
+	#return render_template('index.html', f_name = first_name, f_pizza = favorite_pizza)
 
 
 # create about page
